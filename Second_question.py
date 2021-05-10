@@ -14,3 +14,16 @@ def compare_strings(l:list):
     else:
         return "No"
         
+#second approach 
+
+'''def match_letters(l:list):
+    s1 = list(l[0].lower())
+    s2 = list(l[1].lower())
+    s1 = set(s1)
+    s2 = set(s2)
+    if s1.intersection(s2) == s2:
+        return "Yes"
+    else:
+        return "No"
+
+print(match_letters(['ajitesh','ashish']))''''
